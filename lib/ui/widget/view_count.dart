@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:provider_nav_bar_ex/provider/counter_provider.dart';
 
 class ViewCountWidget extends StatelessWidget {
-  ViewCountWidget({super.key});
+  const ViewCountWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -12,7 +12,7 @@ class CountHomeWidget extends StatelessWidget {
     countProvider = Provider.of<CountProvider>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
-        title: Text("Count Provider"),
+        title: const Text("Count Provider"),
       ),
       body: Container(),
       floatingActionButton: Row(
